@@ -14,11 +14,11 @@ set ttimeoutlen=100             " Keep the timeout very short
 set showcmd                     " Show typed command prefixes while waiting for operator
 set mouse=a                     " Use mouse support in XTerm/iTerm.
 
-set expandtab                   " Use soft tabs
-set tabstop=2                   " Tab settings
+set noexpandtab                   " Use soft tabs
+set tabstop=8                   " Tab settings
 set autoindent
 set smarttab                    " Use shiftwidth to tab at line beginning
-set shiftwidth=2                " Width of autoindent
+set shiftwidth=8                " Width of autoindent
 set number                      " Line numbers
 set nowrap                      " No wrapping
 set backspace=indent,eol,start " Let backspace work over anything.
@@ -28,7 +28,7 @@ set wildignore+=public/uploads/**  " ...Also uploads.
 set wildignore+=public/images/**   " ...Also images.
 set wildignore+=vendor/**          " ...Also vendor.
 
-set list                        " Show whitespace
+set nolist                        " Show whitespace
 set listchars=trail:·
 
 set showmatch                   " Show matching brackets

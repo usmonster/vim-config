@@ -4,7 +4,7 @@
 " Strip trailing whitespace for code files on save
 function! StripTrailingWhitespace()
   let save_cursor = getpos(".")
-  %s/\s\+$//e
+  %s/\(\S\+\)\s\+$/\1/e
   call setpos('.', save_cursor)
 endfunction
 

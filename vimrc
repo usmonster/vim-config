@@ -127,13 +127,13 @@ else
   Plugin 'chrisbra/csv.vim'
   Plugin 'elzr/vim-json'
   Plugin 'briancollins/vim-jst'
-  Plugin 'digitaltoad/vim-jade'
   Plugin 'mxw/vim-jsx'
   Plugin 'lambdatoast/elm.vim'
   Plugin 'leafgarland/typescript-vim'
   Plugin 'digitaltoad/vim-pug'
   Plugin 'elixir-lang/vim-elixir'
   Plugin 'luan/vim-concourse'
+  Plugin 'vim-perl/vim-perl'
 
   "
   " Development Tool Integration
