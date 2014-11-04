@@ -146,6 +146,7 @@ else
   Plugin 'sjl/vitality.vim'
   Plugin 'brysgo/test_server'
   Plugin 'mdelillo/vim-simple-bdd'
+  Plugin 'vim-scripts/vcscommand.vim'
 
   call vundle#end()
 
