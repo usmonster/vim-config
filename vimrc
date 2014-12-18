@@ -134,6 +134,7 @@ else
   Plugin 'elixir-lang/vim-elixir'
   Plugin 'luan/vim-concourse'
   Plugin 'vim-perl/vim-perl'
+  Plugin 'Glench/Vim-Jinja2-Syntax'
 
   "
   " Development Tool Integration
